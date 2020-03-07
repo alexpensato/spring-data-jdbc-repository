@@ -1,4 +1,4 @@
-= Spring Data JDBC generic DAO implementation
+= Spring Webflux generic DAO implementation for using Relational Databases with Non-Blocking connections in Java
 :source-language: java
 // Project meta
 :name: spring-data-jdbc-repository
@@ -24,6 +24,7 @@ image:https://api.codacy.com/project/badge/grade/{codacy-id}["Codacy code qualit
 image:https://maven-badges.herokuapp.com/maven-central/{group-id}/{artifact-id}/badge.svg[Maven Central, link="https://maven-badges.herokuapp.com/maven-central/{group-id}/{artifact-id}"]
 endif::env-github[]
 
+This project was inspired by https://github.com/nurkiewicz/spring-data-jdbc-repository[nurkiewicz's jdbc-repository project], but has been renamed as the purpose of this project is new: providing Non-Blocking for Relational Databases.
 
 The purpose of this project is to provide generic, lightweight and easy to use DAO implementation for relational databases based on {spring-jdoc-uri}/jdbc/core/JdbcTemplate.html[JdbcTemplate] from https://projects.spring.io/spring-framework[Spring framework], compatible with Spring Data umbrella of projects.
 It’s intended for small applications where JPA or even MyBatis is an overkill.
